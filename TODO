@@ -1,0 +1,6 @@
+#Structure draft
+
+addon.xml: Metadata about the add-on, including dependencies, version, and entry points.
+resources/: Directory for static files like images or language files.
+default.py: The main entry script where the add-on's functionality begins.
+lib/: Directory for additional Python modules used by your add-on.
