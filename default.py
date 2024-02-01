@@ -29,7 +29,7 @@ def show_slideshow(image_folder):
     win.close()
 
 # Example of starting the music and slideshow (adjust paths as needed)
-music_folder = '/path/to/your/music'
-image_folder = '/path/to/your/images'
+music_folder = '/media/music'
+image_folder = '/media/images'
 threading.Thread(target=play_music, args=(music_folder,)).start()
 threading.Thread(target=show_slideshow, args=(image_folder,)).start()
